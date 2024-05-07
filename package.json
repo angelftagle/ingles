@@ -9,5 +9,10 @@
     "vue-rate": "^2.5.0",
     "vue-social-sharing": "^3.0.9",
     "vue-star-rating": "^1.7.0"
+  },
+  "scripts": {
+    "dev": "vue --config=Scripts/config/vue.dev.js --watch",
+    "build": "vue --config=Scripts/config/vue.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
