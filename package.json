@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@egjs/vue-flicking": "^4.11.2",
+    "vue-carousel": "^0.18.0",
+    "vue-feedback-reaction": "^1.2.0",
+    "vue-flux": "^7.0.0-beta.5",
+    "vue-gallery-slideshow": "^1.5.2",
+    "vue-rate": "^2.5.0",
+    "vue-social-sharing": "^3.0.9",
+    "vue-star-rating": "^1.7.0",
+    "vue3-google-map": "^0.20.0"
+  }
+}
