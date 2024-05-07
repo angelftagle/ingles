@@ -8,7 +8,8 @@
     "vue-gallery-slideshow": "^1.5.2",
     "vue-rate": "^2.5.0",
     "vue-social-sharing": "^3.0.9",
-    "vue-star-rating": "^1.7.0"
+    "vue-star-rating": "^1.7.0",
+    "vue3-google-map": "^0.20.0"
   },
   "scripts": {
     "dev": "vue --config=Scripts/config/vue.dev.js --watch",
