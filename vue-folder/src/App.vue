@@ -102,15 +102,7 @@
           </form>
         </div>  
 
-        <GoogleMap
-        api-key="AIzaSyDp3Ud3SixagW8bJOwtosy5bBMB5JRNS_k"
-        style="width: 100%; height: 500px"
-        :center="center"
-        :zoom="15"
-        >
-          <Marker :options="{ position: center }" />
-        </GoogleMap>
-        <br>
+                <br>
         <h1>Ubicación
         </h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1888673209605!2d-99.11598792415674!3d19.404243941584664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff4c147cff73%3A0xb999a5d2e9b6a002!2sFrancisco%20del%20paso%20Residencial!5e0!3m2!1ses-419!2smx!4v1714975422023!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -141,9 +133,7 @@
 import { SocialShareNetwork } from 'vue-social-sharing';
 import VueRate from 'vue-rate';
 import Slider from "@/components/Slider.vue";
-import { GoogleMap, Marker } from 'vue3-google-map'
 
-const center = { lat: 40.689247, lng: -74.044502 }
 
 
 
